@@ -10,7 +10,9 @@ body {
   font-family: "Spartan", sans-serif;
   height: 100%;
   width: 100%;
+  max-width: 1200px;
   color: #502050;
+  margin: 0 auto;
 }
 
 .master-container {
