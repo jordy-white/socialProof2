@@ -150,9 +150,13 @@ section .stars-container {
   }
   header h1 {
     font-size: 3.5rem;
+    -webkit-animation: fadeIn 1.5s ease-in forwards;
+            animation: fadeIn 1.5s ease-in forwards;
   }
   header p {
     font-size: 1rem;
+    -webkit-animation: fadeIn 1.5s ease-in forwards;
+            animation: fadeIn 1.5s ease-in forwards;
   }
   .stars-container {
     position: relative;
@@ -211,6 +215,22 @@ section .stars-container {
   .name-verified h2,
   .name-verified p {
     font-size: 0.8rem;
+  }
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
   }
 }
 /*# sourceMappingURL=styles.css.map */
