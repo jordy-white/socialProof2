@@ -181,9 +181,11 @@ section .stars-container {
     justify-content: space-between;
     margin-bottom: 2rem;
   }
+
   .voice-individual {
     height: 15rem;
   }
+
   .buyer-voices-container .voice-individual:nth-child(2) {
     position: relative;
     margin: auto 2rem;
@@ -192,6 +194,7 @@ section .stars-container {
     position: relative;
     margin: auto 0 0 0;
   }
+
   .comment,
   .name-verified h2,
   .name-verified p {
