@@ -141,6 +141,8 @@ section .stars-container {
             flex-direction: row;
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    -webkit-animation: fadeIn 1.5s ease-in forwards;
+            animation: fadeIn 1.5s ease-in forwards;
   }
   header {
     width: 40%;
@@ -150,13 +152,9 @@ section .stars-container {
   }
   header h1 {
     font-size: 3.5rem;
-    -webkit-animation: fadeIn 1.5s ease-in forwards;
-            animation: fadeIn 1.5s ease-in forwards;
   }
   header p {
     font-size: 1rem;
-    -webkit-animation: fadeIn 1.5s ease-in forwards;
-            animation: fadeIn 1.5s ease-in forwards;
   }
   .stars-container {
     position: relative;

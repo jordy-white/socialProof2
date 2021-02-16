@@ -129,6 +129,7 @@ section .stars-container {
     width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
+    animation: fadeIn 1.5s ease-in forwards;
   }
   // Header media query styles
   header {
@@ -139,11 +140,9 @@ section .stars-container {
   }
   header h1 {
     font-size: 3.5rem;
-    animation: fadeIn 1.5s ease-in forwards;
   }
   header p {
     font-size: 1rem;
-    animation: fadeIn 1.5s ease-in forwards;
   }
   // Star review media query styles
   .stars-container {
