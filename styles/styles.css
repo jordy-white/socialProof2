@@ -134,7 +134,7 @@ section .stars-container {
     background: url(/images/bg-pattern-top-desktop.svg) left top no-repeat, url(/images/bg-pattern-bottom-desktop.svg) right bottom no-repeat;
   }
   .master-container {
-    width: 80%;
+    width: 100%;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -149,10 +149,10 @@ section .stars-container {
     margin-top: 7rem;
   }
   header h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
   header p {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   .stars-container {
     position: relative;
@@ -160,7 +160,7 @@ section .stars-container {
     top: 7rem;
   }
   .stars-individual {
-    width: 26rem;
+    width: 28rem;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -178,13 +178,13 @@ section .stars-container {
     margin-right: 0%;
   }
   .stars {
-    margin: 0.5rem;
-    padding: 0.5rem;
+    margin: 0.6rem;
+    padding: 0.6rem;
   }
   .stars-individual p {
     margin: auto 0 auto 0.5rem;
     padding: 0;
-    font-size: 0.75rem;
+    font-size: 0.8rem;
   }
   .buyer-voices-container {
     height: 17rem;
@@ -210,7 +210,7 @@ section .stars-container {
   .comment,
   .name-verified h2,
   .name-verified p {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
   }
 }
 /*# sourceMappingURL=styles.css.map */

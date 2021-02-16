@@ -126,7 +126,7 @@ section .stars-container {
       url(/images/bg-pattern-bottom-desktop.svg) right bottom no-repeat;
   }
   .master-container {
-    width: 80%;
+    width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
   }
@@ -138,10 +138,10 @@ section .stars-container {
     margin-top: 7rem;
   }
   header h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
   header p {
-    font-size: 0.8rem;
+    font-size: 1rem;
   }
   // Star review media query styles
   .stars-container {
@@ -150,7 +150,7 @@ section .stars-container {
     top: 7rem;
   }
   .stars-individual {
-    width: 26rem;
+    width: 28rem;
     display: flex;
   }
   .stars-container .stars-individual:nth-child(1) {
@@ -166,13 +166,13 @@ section .stars-container {
     margin-right: 0%;
   }
   .stars {
-    margin: 0.5rem;
-    padding: 0.5rem;
+    margin: 0.6rem;
+    padding: 0.6rem;
   }
   .stars-individual p {
     margin: auto 0 auto 0.5rem;
     padding: 0;
-    font-size: 0.75rem;
+    font-size: 0.8rem;
   }
   // Buyer voices media query styles
   .buyer-voices-container {
@@ -195,6 +195,6 @@ section .stars-container {
   .comment,
   .name-verified h2,
   .name-verified p {
-    font-size: 0.75rem;
+    font-size: 0.8rem;
   }
 }
